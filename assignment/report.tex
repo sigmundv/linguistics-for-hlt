@@ -1,0 +1,1004 @@
+\documentclass[12pt,%
+    %anonym,
+    times,
+    %referee,
+    % doublespacing,   
+]{lin-v2/lin}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amssymb}
+\usepackage{tipa}
+
+\usepackage[noglossaries]{leipzig}
+\usepackage{gb4e}
+\noautomath
+
+\usepackage{rrgtrees}
+\usepackage{pst-node}
+\usepackage{pst-tree}
+
+\begin{document}
+
+\leftrunning{}  % Short author list
+
+\rightrunning{} % Short title
+
+\title{A Comparison of Language Complexity in Faroese and Icelandic}
+
+\author[1]{\givenname{Sigmund} \surname{Vestergaard} -- B00108126}
+
+\address[1]
+{%
+  \inst{Institute of Technology Blanchardstown}, % Institution name should be in \inst
+  \addr{Blanchardstown Road North}, % Street 
+  \addr{Dublin 15}, % Postcode etc
+  \cnty{Ireland}  % Country
+  \email{B00108126@student.itb.ie} % email
+}
+
+\maketitle
+%\tableofcontents*
+
+\begin{abstract}
+    We examine the complexity of Icelandic compared to Faroese, which are two closely related North Germanic languages.
+    It is found that Icelandic is more complex than Faroese, and evidence is presented that shows
+    that while inflection of nouns, agreement of case, number, and gender is similar for both languages,
+    verb inflection in Icelandic is much richer than it is in Faroese. As an example we can mentioned
+    case patterns for objects of ditransitive verbs, where Icelandic has a significant number of pattern
+    combinations while Faroese predominantly has the dative--accusative pattern, and in some cases
+    accusative--accusative.
+    \keywords{Complexity, Faroese, Icelandic}
+\end{abstract}
+
+\section{Introduction}
+
+In this paper we introduce the two Germanic languages of Icelandic and Faroese and present aspects of their morphology
+and syntax, respectively, with a view to comparing the complexity of the two.
+
+% will introduce the concept of \emph{language complexity} and discuss different views on language complexity.
+% We ask whether all languages are equally complex and how we would go about defining linguistic complexity of a language.
+% After we have set the scene we will apply the theory to the Norse languages of Faroese and Icelandic, respectively,
+% and compare the complexity of these two languages.
+
+First we briefly introduce both languages, putting them in contex. Then we move on to analysis of Icelandic morphology and syntax.
+Finally we do the same for Faroese while referring back to the analysis of Icelandic, which should give us an idea of
+the similarities and differences, respectively, between the two languages.
+The examples and accompanying analysis for Faroese are drawn from~\citep{faroese},
+while for Icelandic we mostly draw on~\citep{icelandic}.\\
+
+% This introductory section will first touch upon the concept and present different viewpoints and types of complexity.
+% Then we will briefly put Icelandic and Faroese, respectively, in context.
+
+The hypothesis we wish to explore in this paper is the following:
+\begin{exe}
+    \ex
+    Icelandic is essentially more complex that Faroese,
+    because Faroese has developed further away from Old Norse than Icelandic has.
+\end{exe}
+
+
+% \subsection{Language Complexity}
+
+
+
+
+\subsection{Icelandic}
+
+Icelandic developed from the Old Norse spoken by the settlers that arrived from Norway
+in the late ninth and early tenth century. Today it is primarily spoken by around 335,000
+inhabitants in Iceland and is most closely related to the other Nordic languages, Faroese, Norwegian, Swedish, and Danish,
+but more so to Faroese and the dialects of southwestern Norway than the others.
+
+Normally the history of Icelandic is divided into the Old Icelandic period, before 1540,
+and the Modern Icelandic period, after 1540. The dividing line of 1540 is the year
+the first Icelandic translation of the New Testament was published.
+
+When Modern Icelandic, which is what we will concern ourselves with in this paper,
+is compared with other Nordic languages on one hand, and Old Norse on the other,
+it is evident that Icelandic has changed less than the other
+Modern Scandinavian languages with respect to morphology and
+syntax~\citep{icelandic, germanicIcelandic}.
+
+
+\subsection{Faroese}
+
+Faroese is derived from the Norse language of the primarily Norwegian settlers
+who moved to the islands in the ninth century. Due to a lack of Viking Age
+and medieval sources little is known about the development of Faroese into
+the language we know today. Nothing of substance was written in Faroese
+until the 1770s, by which time most the features of the modern language
+must have developed.
+
+From the Reformation in 1539 until 1948 Faroese had no official status,
+which has had several consequences for Faroese. The spoken language is
+mostly dialectically based and its lexicon is heavily influenced by
+Danish. On the other hand the written language is homogeneous and very
+puristic. The orthography was only established in the middle of the nineteenth century,
+and owes much to Old Norse and some to Icelandic. Neologisms are widespread
+in Faroese, as they are in Icelandic, but many of them are only used in
+writing, with the spoken language preferring variants derived from
+Danish~\citep{germanicFaroese}.
+
+
+\section{Icelandic}
+
+In this section we go through the main grammatical categories, nominal and verbal,
+and give a brief overview.
+
+\subsection{Nominal categories}
+
+Icelandic has a three-valued gender system, masculine, feminine, and neuter.
+Grammatical gender is not necessarily inferred from the sex of the referents.
+Most nouns referring to females are feminine, for example, but it is also possible to find
+masculine and neuter words referring to females. It is also possible for
+words referring to things and concepts to be either masculine, feminine, or neuter.
+We list some examples here~\citep{icelandic}:
+\begin{exe}
+    \ex \begin{xlist}
+        \item strákur (m) 'boy', stóll (m) 'chair', svanni (m) 'woman (poetic)'
+        \item stelpa (f) 'girl', mynd (f) 'picture', hetja (f) 'hero'
+        \item barn (n) 'child', borð (n) 'table', fljóð (n) 'woman (poetic)', skáld (n) 'poet'
+    \end{xlist}
+\end{exe}
+
+Nominal categories, such as nouns, adjectives, articles and pronouns, have four cases,
+nominative (N), accusative (A), dative (D), and genitive (G), and two numbers, singular (sg.) and plural (pl.). 
+The inflection of nouns varies according to gender and inflectional class of the noun.
+Both attributive and predictive adjectives agree with gender, case and number of the noun they modify.
+Let's look at some examples~\citep{icelandic}:
+\begin{exe}
+    \ex \begin{xlist}
+        \item \gll gul\emph{ur} hestur gul mynd\\
+                   yellow.\N.\Sg.\M{} horse.\N.\Sg.\M{} yellow.\N.\Sg.\F{} picture.\N.\Sg.\F\\
+              \gll gul\emph{t} borð gul\emph{ar} myndir\\
+                   yellow.\N.\Sg.\N{} table.\N.\Sg.\N{} yellow.\N.\Pl.\F{} pictures.\N.\Pl.\F\\
+        \item \gll Ég sá gul\emph{a} hænu\\
+                   I saw yellow.\Acc.\Sg.\F{} hen.\Acc.\Sg.\F\\
+                   \trans 'I saw a yellow hen'
+        \item \gll Þessar hænur eru gul\emph{ar}\\
+                   These hens.\N.\Pl.\F{} are yellow.\N.\Pl.\F\\
+        \end{xlist}
+\end{exe}
+
+Icelandic does not have an indefinite artice, and the definite article is suffixed to nouns
+according to their gender, noun, and case, as illustrated here~\citep{icelandic}:
+\begin{exe}
+    \ex
+        \gll    hest-ur-\emph{inn} mynd-\emph{in} borð-\emph{ið}\\
+                horse.\Nom.\Sg.\M.\Def{} picture.\Nom.\Sg.\F.\Def{} table.\Nom.\Sg.\N.\Def\\
+        \trans  'the horse' ; 'the picture' ; 'the table'
+\end{exe}
+
+
+\subsection{Verbal categories}
+
+Finite verbs in Icelandic agree with nominal subjects in person and number. Just as we saw with nouns,
+the morphological markers for person and number appear to be fused; or at least very difficult to separate,
+although it can be argued that person and number are distinct syntactic categories
+in Icelandic after all~\citep[8]{icelandic}. Here are examples of inflection of two
+different verbs, \emph{horfa} (look) and \emph{bíta} (bite), where the former is an example
+of a weak (regular) verb and the latter is an example of a strong (irregular) verb~\citep{icelandic}:
+\begin{exe}
+    \ex \begin{xlist}
+        \item \gll ég horf-i ég horf-ð-i\\
+                   I look.\First\Sg.\Prs.\Ind{} I look.\First.\Sg.\Pst.\Ind\\
+              \trans 'I look' 'I looked'
+        \item \gll þú horf-ir þú horf-ð-ir\\
+                   you look.\Second.\Sg.\Prs.\Ind{} you look.\Second.\Sg.\Pst.\Ind\\
+              \trans 'you look' 'you looked'
+        \item \gll hann horf-ir hann horf-ð-i\\
+                   he look.\Third.\Sg.\Prs.\Ind{} he look.\Third.\Sg.\Pst.\Ind\\
+                   \trans 'he looks' 'he looked'\\
+        \item \gll við horf-um við horf-ð-um\\
+                   we look.\First\Sg.\Prs.\Ind{} we look.\First.\Sg.\Pl.\Ind\\
+              \trans 'we look' 'we looked'
+        \item \gll þið horf-ið þið horf-ð-uð\\
+                   you.\Pl{} look.\Second.\Sg.\Prs.\Ind{} you.\Pl{} look.\Second.\Pl.\Pst.\Ind\\
+              \trans 'you look' 'you looked'
+        \item \gll þeir horf-a þeir horf-ð-u\\
+                   they.\M{} look.\Third.\Sg.\Prs.\Ind{} they.\M{} look.\Third.\Pl.\Pst.\Ind\\
+              \trans 'they look' 'they looked'\\
+        \end{xlist}
+\end{exe}
+\begin{exe}
+    \ex \begin{xlist}
+        \item \gll ég bít ég beit\\
+                   I bite.\First\Sg.\Prs.\Ind{} I bite.\First.\Sg.\Pst.\Ind\\
+              \trans 'I bite' 'I bit'
+        \item \gll þú bít-ur þú bei-st\\
+                   you bite.\Second.\Sg.\Prs.\Ind{} you bite.\Second.\Sg.\Pst.\Ind\\
+              \trans 'you bite' 'you bit'
+        \item \gll hann bít-ur hann beit\\
+                   he bite.\Third.\Sg.\Prs.\Ind{} he bite.\Third.\Sg.\Pst.\Ind\\
+              \trans 'he bites' 'he bit'
+        \item \gll við bít-um við bit-um\\
+                   I bite.\First\Pl.\Prs.\Ind{} I bite.\First.\Pl.\Pst.\Ind\\
+              \trans 'I bite' 'I bit'
+        \item \gll þið bít-ið þið bit-uð\\
+                   you bite.\Second.\Pl.\Prs.\Ind{} you bite.\Second.\Pl.\Pst.\Ind\\
+              \trans 'you bite' 'you bit'
+        \item \gll þeir bít-a þeir bit-u\\
+                   he bite.\Third.\Pl.\Prs.\Ind{} he bite.\Third.\Pl.\Pst.\Ind\\
+              \trans 'he bites' 'he bit'
+        \end{xlist}
+\end{exe}
+
+Icelandic has two distinct tenses, an unmarked \emph{present} tense and \emph{past} tense.
+As is usually the case for Germanic languages, the past tense of weak verbs is marked with a dental suffix
+while strong verbs show various (systematic but unpredictable) vowel changes (ablaut patterns).
+The rich agreement morphology illustrated in examples~(4) and~(5) above is one of the main
+differences between Icelandic and other Scandinavian languages, and it should be noted
+that it is found both in indicative (as shown in the examples above) and subjunctive mood
+(as shown in the examples below)~\citep{icelandic}:
+\begin{exe}
+    \ex \begin{xlist}
+        \item \gll ég horf-i ég horf-ð-i\\
+                   I look.\First\Sg.\Prs.\Subj{} I look.\First.\Sg.\Pst.\Subj\\
+              \trans 'I look' 'I looked'
+        \item \gll þú horf-ir þú horf-ð-ir\\
+                   you look.\Second.\Sg.\Prs.\Subj{} you look.\Second.\Sg.\Pst.\Subj\\
+              \trans 'you look' 'you looked'
+        \item \gll hann horf-i hann horf-ð-i\\
+                   he look.\Third.\Sg.\Prs.\Subj{} he look.\Third.\Sg.\Pst.\Subj\\
+                   \trans 'he looks' 'he looked'\\
+        \item \gll við horf-um við horf-ð-um\\
+                   we look.\First\Sg.\Prs.\Subj{} we look.\First.\Sg.\Pl.\Subj\\
+              \trans 'we look' 'we looked'
+        \item \gll þið horf-ið þið horf-ð-uð\\
+                   you.\Pl{} look.\Second.\Sg.\Prs.\Subj{} you.\Pl{} look.\Second.\Pl.\Pst.\Subj\\
+              \trans 'you look' 'you looked'
+        \item \gll þeir horf-i þeir horf-ð-u\\
+                   they.\M{} look.\Third.\Sg.\Prs.\Subj{} they.\M{} look.\Third.\Pl.\Pst.\Subj\\
+              \trans 'they look' 'they looked'\\
+        \end{xlist}
+\end{exe}
+\begin{exe}
+    \ex \begin{xlist}
+        \item \gll ég bít-i ég bit-i\\
+                   I bite.\First\Sg.\Prs.\Subj{} I bite.\First.\Sg.\Pst.\Subj\\
+              \trans 'I bite' 'I bit'
+        \item \gll þú bít-ir þú bit-ir\\
+                   you bite.\Second.\Sg.\Prs.\Subj{} you bite.\Second.\Sg.\Pst.\Subj\\
+              \trans 'you bite' 'you bit'
+        \item \gll hann bít-i hann bit-i\\
+                   he bite.\Third.\Sg.\Prs.\Subj{} he bite.\Third.\Sg.\Pst.\Subj\\
+              \trans 'he bites' 'he bit'
+        \item \gll við bít-um við bit-um\\
+                   I bite.\First\Pl.\Prs.\Subj{} I bite.\First.\Pl.\Pst.\Subj\\
+              \trans 'I bite' 'I bit'
+        \item \gll þið bít-ið þið bit-uð\\
+                   you bite.\Second.\Pl.\Prs.\Subj{} you bite.\Second.\Pl.\Pst.\Subj\\
+              \trans 'you bite' 'you bit'
+        \item \gll þeir bít-i þeir bit-u\\
+                   he bite.\Third.\Pl.\Prs.\Subj{} he bite.\Third.\Pl.\Pst.\Subj\\
+              \trans 'he bites' 'he bit'
+        \end{xlist}
+\end{exe}
+
+The non-finite verb forms in Modern Icelandic are 1) \emph{infinitive} and 2) the two \emph{participles},
+\emph{past} and \emph{present}. Infinitive typically ends with \emph{-a} in Icelandis,
+as we can see from this comparison with imperative:
+\begin{exe}
+    \ex
+    \gll infinitives: tala horf-a dæm-a bít-a\\
+    imperatives: tala horf dæm bít\\
+    \trans {~~~~~~~~~~~~~~~~~~~} 'talk' 'look' 'judge' 'bite'
+\end{exe}
+
+Present participle is formed by adding \emph{-(a)ndi} to the stem of the verb,
+e.g. \emph{sof\emph{andi}} 'sleeping', \emph{gang\emph{andi}} 'walking', and does not inflect
+in Modern Icelandic.
+
+Past participle usually ends in \emph{-ur} or \emph{-inn} and inflects in gender, number, and case, as illustrated here:
+\begin{exe}
+    \ex
+    \gll dæm-d-ur dæm-d dæm-t\\
+    judge.\First\Nom.\Sg.\M{} judge.\First\Nom.\Sg.\F{} judge.\First\Nom.\Sg.\N\\
+    \gll dæm-d-an dæm-d-a dæm-t\\
+    judge.\First\Acc.\Sg.\M{} judge.\First\Acc.\Sg.\F{} judge.\First\Acc.\Sg.\N\\
+    \gll dæm-d-ir dæm-d-ar dæm-d\\
+    judge.\First\Nom.\Pl.\M{} judge.\First\Nom.\Pl.\F{} judge.\First\Nom.\Pl.\N\\
+    \gll dæm-d-a dæm-d-ar dæm-d\\
+    judge.\First\Acc.\Pl.\M{} judge.\First\Acc.\Pl.\F{} judge.\First\Acc.\Pl.\N\\
+    \trans 'judged'
+\end{exe}
+
+The past participle is used in passive constructions, as shown here:
+\begin{exe}
+    \ex
+    \gll Hundurinn var \emph{bitinn}\\
+    dog.\Third\Nom.\Sg.\M.\Def{} be.\Aux{} bite.\Third\Nom.\Sg.\M.\Pst.\Ptcp{}\\
+    \trans 'The dog was bitten'
+    \ex
+    \gll Bækurnar voru \emph{lesnar}\\
+    book.\Third\Nom.\Pl.\F.\Def{} be.\Aux{} read.\Third\Nom.\Pl.\F.\Pst.\Ptcp\\
+\end{exe}
+
+Above we have seen examples with the auxiliary verb \emph{vera} 'be'.
+Auxiliary verbs in Icelandic do not form a separate inflectional class,
+but show the same rich agreement morphology and inflection for tense
+as other verbs, hence can only be defined as 'the class of verbs that that are used to systematically
+express grammatical categories' such as passive, perfect, progressive, and various modal constructions~\citep[10]{icelandic}.
+
+As we have seen before, the passive is formed by the auxiliaries \emph{vera} 'be' and \emph{verða} 'become' plus a past participle.
+We have also shown above that the passive auxiliary agrees with a nominative subject in person and number, and with the participle in
+number and gender. The agent of a passive can be expressed with the preposition \emph{af} 'by' plus dative, but normally is is left
+unexpressed:
+\begin{exe}
+    \ex
+    \gll Einhver opnaði skápinn.\\
+    somebody.\Third\Nom.\Sg{} open.\Third\Sg.\Pst{} cupboard.\Acc.\Sg.\Det\\
+    \trans 'Somebody opened the cupboard.'
+    \ex
+    \gll Skápurinn var opnaður.\\
+    cupboard.\Nom.\Sg.\M.\Det{} be.\Third\Sg.\Pst{} open.\Nom.\Sg.\M.\Pst.\Ptcp\\
+    \trans 'The cupboard was opened.'
+\end{exe}
+
+Additionally we have the so-called middle forms, which are verb forms ending in \emph{-st}, that have a passive-like meaning:
+\begin{exe}
+    \ex
+    \gll Skápurinn opnaðist.\\
+    cupboard.\Nom.\Sg.\M.\Det{} open.\Nom.\Sg.\M.\Pst.\Ptcp\\
+    \trans 'The cupboard opened.'
+\end{exe}
+
+There is no understood agent in \emph{-st} constructions, such that a sentence like this is ungrammatical in Icelandic:
+\begin{exe}
+    \ex
+    \gll *Naglarnir framleiðast av Vírneti hf.\\
+    nail.\Nom.\Sg.\Det{} produce.\Sg{} by.\textsc{prep} Virnet Inc.\\
+\end{exe}
+
+The \emph{perfect} in Icelandic is formed by the auxiliary \emph{hafa} 'have' an an uninflected past participle of the main verb,
+as seen in the examples below. We will refer to the uninflected past participle as \emph{supine}, but it is identical to
+the singular nominative/accusative of the participle:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll María hefur aldrei lesið þessa bók.\\
+        Maria have.\Third\Sg.\Pst.\Aux{} never read.\textsc{sup} this.\Det{} book.\Nom.\Sg.\F{}\\
+        \trans 'Maria has never read this book.'
+        \item \gll Pósturinn hefur ekki komið í morgun.\\
+        mail.\Sg.\Det{} have.\Third\Sg.\Pst.\Aux{} not come.\textsc{sup} in morning\\
+        \trans 'The mail has not arrived this morning.'
+        \item \gll Þessi bók hefur aldrei verið lesin.\\
+        this book have.\Third\Sg.\Pst.\Aux{} never be.\textsc{sup} read.\Pst.\Ptcp.\Nom.\F{}\\
+        \trans 'This book has never been read.'
+    \end{xlist}
+\end{exe}
+
+In Icelandic a \emph{progressive} aspect is expressed by using the auxiliary \emph{vera} 'be' with the infinitive of the main verb
+(including the infinitive marker \emph{að}):
+\begin{exe}
+    \ex
+    \gll Ég var að borða morgunmatinn þegar hún kom.\\
+    I be.\First\Sg.\Pst\Ind{} to eat.\Inf{} breakfast\Acc.\Det{} when she arrive.\Pst\\
+    \trans 'I was eating breakfast when she arrived.'
+\end{exe}
+
+
+\subsection{Syntax}
+
+
+We illustrate word order and clause structure in Icelandic by representing some sample
+sentences from~\citep[17-18]{icelandic} as RRG trees. First we gloss the sentences, then we
+draw the trees.
+
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Margir höfðu aldrei lokið verkefninu\\
+        many.\Adv{} have.\Pst.\Aux{} never.\Adv{} finish.\Pst.\Ptcp{} assignment-\Det\\
+        \trans 'Many had never finished the assignment'
+        \item \gll Það höfðu aldrei margir lokið verkefninu\\
+        there have never many.\Adv{} finish.\Pst.\Ptcp{} assignment-\Det\\
+        \trans 'There were never many people who had finished the assignment'
+        \item \gll hvort María hefði ekki lesið bókina\\
+        whether Maria have not.\Neg{} read.\Pst.\Ptcp{} book-\Det\\
+        \trans 'whether Maria has not read the book'
+        \item \gll Bókina hefur hún ekki lesið\\     
+        book-\Det{} have.\Pst.\Aux{} she not read\\
+        \trans 'She has not read the book'
+    \end{xlist}
+\end{exe}
+
+
+\begin{exe}
+    \ex
+    \begin{xlist}
+    \item \psset{treesep=2ex}
+        \CLAUSE{
+        \lPERIPH{2}{AdvP}{\WORD{Margir}}
+        \CORE{
+            \WORD(AUX){höfðu}
+            \WORD(AdvP){aldrei}
+            \NUC{lokið}
+            \ARG{\WORD(NP){verkefninu}}
+        }
+    }
+    \dolinks
+    \item \psset{treesep=2ex}
+        \CLAUSE{
+        \lPERIPH{2}{AdvP}{\WORD{Það}}
+        \CORE{
+            \WORD(AUX){höfðu}
+            \WORD(AdvP){aldrei}
+            \WORD(AdvP){margir}
+            \NUC{lokið}
+            \ARG{\WORD(NP){verkefninu}}
+        }
+    }
+    \dolinks
+    \item \psset{treesep=2ex}
+        \CLAUSE{
+        \lPERIPH{2}{AdvP}{\WORD{hvort}}
+        \CORE{
+            \WORD(AUX){María}
+            \WORD(AdvP){hefði}
+            \WORD(AdvP){ekki}
+            \NUC{lesið}
+            \ARG{\WORD(NP){bókina}}
+        }
+    }
+    \dolinks
+    \item \psset{treesep=2ex}
+        \CLAUSE{
+        \CORE{
+            \ARG{\WORD(NP){Bókina}}
+            \WORD(AdvP){hefur}
+            \ARG{\WORD(PP){hún}}
+            \WORD(AdvP){ekki}
+            \NUC{lesið}
+        }
+    }
+    \dolinks
+    \end{xlist}
+\end{exe}
+
+
+\section{Faroese}
+
+Following the overview of Icelandic morphology and syntax we take a similar look at Faroese.
+We start with nominal categories before we move on to verbal categories.
+
+\subsection{Nominal categories}
+
+Like Icelandic, Faroese has three grammatical genders; masculine, feminine, and neuter.
+Faroese nouns inflect for gender, but also number (singular/plural) and case (nominative/accusative/dative/genitive).
+The inflectional endings vary according to gender. Definiteness of nouns is indicated by a suffixed article.
+
+Just like nouns, adjectives also inflect for number, case, and gender. Additionally they also inflect for degree
+(positive/comparative/superlative). Adjectives typically have two forms of inflections - strong or weak - depending
+on the definiteness of the noun phrase they are a part of.
+
+Finally, articles, pronouns, the cardinal numbers 1 to 3, and the ordinal numbers, inflect for number, case, and gender.
+
+Faroese noun phrases show extensive agreement, including number agreement between nouns and the adjectives that modify them.
+This holds for both attributive and predictive adjectives. We illustrate this using the noun \emph{drongur} 'boy'
+with the adjective \emph{klókur} 'smart'~\citep[61]{faroese}:
+\begin{exe}
+    \ex
+    \gll ein klókur drongur klókir drongir\\
+    a smart boy smart boy\\
+    \trans 'a smart boy' 'smart boys'
+    \gll drongurin er klókur dreingirnir eru klókir\\
+    boy-\Det{} is smart boy-\Det,\Pl{} is.\Pl{} smart.\Pl\\
+    \trans 'the boy is smart' 'the boys are smart'
+\end{exe}
+
+The gender of nouns is reflected in the different forms of the personal pronouns used to refer to them and the
+gender of adjectives and articles used to modify said nouns. We illustrate this with the following example:
+\begin{exe}
+    \ex
+    \gll Hetta er ein klókur drongur\\
+    this is a.\M{} smart.\M{} boy.\M\\
+    Hann. er klókur\\
+    he.\M{} is smart.\M\\
+    \gll Hetta er ein klók genta\\
+    this is a.\F{} smart.\F{} girl.\F\\
+    Hon er klók\\
+    she.\F{} is smart.\F{}\\
+    \gll Hetta er eitt klókt barn\\
+    this is a.\N{} smart.\N{} child.\N\\
+    Tað er klókt\\
+    it.\N{} is smart.\N\\
+\end{exe}
+
+Old Norse and older Faroes had four morphologically distinctive cases - nominative, accusative, dative, and genitive -
+but only the three first are productive in modern spoken Faroese (modern \emph{written} Faroese still retains the genitive
+to a degree). We illustrate this with a small example:
+\begin{exe}
+    \ex
+    \gll Gentan svav\\
+    girl-\Det.\Nom{} sleep.\Pst\\
+    \trans 'The girl slept'\\
+    \gll Eg sá gentuna\\
+    I see.\Pst{} girl-\Det.\Acc\\
+    \trans 'I saw the girl'\\
+    \gll Hetta er hundurin hjá gentuni\\
+    This is dog-\Det{} with girl-\Det.\Dat\\
+    \trans 'This is the girl'{}s dog'
+\end{exe}
+
+Despite this a genitive form can be produced for nouns and personal pronouns, but less so for adjectives. The genitive form
+of personal pronouns is widely used while the genitive form of many nouns is found in fixed expressions and as the first
+part of certain compounds, but it is uncertain whether speakers intuitively interpret these forms as genitive~\citep[62]{faroese}.
+
+Instead of genitive, modern spoken Faroese prefers prepositional constructions involving a dative form of the noun as
+illustrated in these examples:
+\begin{exe}
+    \ex
+    \gll Her eru húsini hjá einum ríkum manni\\
+    here is.\Pl{} house-\Det.\Pl{} with a.\Dat{} rich.\Dat{} man.\Dat{}\\
+    'Here is a rich man'{}s house/home'
+    \gll Kettlingurin hjá kettuni hjá mær er vakur\\
+    kitten-\Det{} with cat-\Det{}.\Dat{} with I.\Dat{} is beautiful\\
+    'My cat'{}s kitten is beautiful'
+\end{exe}
+
+Above we saw examples with the preposition \emph{hjá} 'with', but Faroese speakers also use other prepositions with the dative,
+depending on the semantic function. We'll look at some examples~\citep{faroese}:
+\begin{exe}
+    \ex
+    \gll takið á húsinum motorurin í bilinum\\
+    roof-\Det{}.\Nom.\N{} on house-\Det{}.\Dat{}.\N{} motor-\Det{}.\Nom{}.\M{} in car-\Det.\Dat.\M\\
+    \trans 'the roof of the house' 'the car'{}s engine'
+    \gll abbi at dreinginum aldurin á kirkjuni\\
+    grandfather to boy-\Det.\M.\Dat{} age-\Det on church-\Det.\Dat\\
+    \trans 'the boy'{}s grandfather' 'the age of the church' 
+    \gll halin á kúnni tenninar í hundinum\\
+    tail-\Det on cow-\Det.\Dat{} tooth-\Det.\Pl{} in dog-\Det.\Dat\\
+    \trans 'the cow'{}s tail' 'the dog'{}s teeth'
+    \gll høvdið á mær eyguni í honum\\
+    head-\Det on I.\Dat{} eyes-\Det{} in he.\Dat\\
+    \trans 'my head' 'his eyes'
+\end{exe}
+
+With nouns denoting family relationships an accusative form is normally used instead of genitive or a prepositional phrase
+as illustrated here:
+\begin{exe}
+    \ex
+    \gll pápi dreingin mamma gentuna beiggi Jógvan\\
+    father boy-\Det.\Acc{} mum girl-\Det.\Acc{} brother Jógvan.\Acc\\
+    \trans 'the boy'{}s father' 'the girl'{}s mother' 'Jógvan'{}s brother'
+\end{exe}
+
+As mentioned above, adjectives can be grouped into two categories: \emph{strong} adjectives and \emph{weak} adjectives.
+Which category they belong to depends on the definiteness of the noun phrase they form a part of. The general rule is that
+the adjective takes the weak form if the noun phrase is definite, and the strong form if the noun phrase is indefinite.
+We illustrate this with two examples~\citep[65]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hetta er ein stórur bilur og ein lítil bók.\\
+        this is a big.\Nom.\Sg.\M{} car.\Nom.\Sg.\M{} and a small.\Nom.\Sg.\F{} book.\Nom.\Sg.\F\\
+        \trans 'This is a big car and a small book'
+        \item \gll Hetta er tann stóri bilurin og tann lítla bókin.\\
+        this is the big.\Nom.\Sg.\M{} car-\Det.\Nom.\Sg.\M{} and the small-\Det.\Nom.\Sg.\F{} book\\
+        \trans 'This is the big car and the small book'
+    \end{xlist}
+\end{exe}
+
+Finally, most adjectives can be inflected for degree by adding the suffixes \emph{-(a)r} and \emph{-(a)st} in
+comparative and superlative, respectively. Indeclinable adjectives express difference in degree by using the
+auxiliary verbs \emph{meiri} 'more' (comparative) and \emph{mest} 'most' (superlative). We'll finish by showing a
+couple of examples of this:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll gulur gul-a-ri gul-ast-ur\\
+        yellow yellower yellowest\\
+        \item \gll hóskandi meiri hóskandi mest hóskandi\\
+        appropriate more appropriate most appropriate\\
+    \end{xlist}
+\end{exe}
+
+
+\subsection{Verbal categories}
+
+Faroese verbs are inflected by person, number, and tense, with the two following characteristics with respec to
+person inflection~\citep[67]{faroese}:
+\begin{enumerate}
+    \item Faroese verbs do not show any person distinctions in the plural and regular (weak).
+    \item Faroese verbs do not show any person distinctions neither in the singular nor in the past tense.
+\end{enumerate}
+
+This can be illustrated with the following example:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll eg kalli tú kallar hann/hon/tað kallar\\
+        I call.\First\Sg.\Prs{} you call.\Second\Sg.\Prs{} he/she/it call.\Third\Sg.\Prs\\
+        \trans 'I call' 'you call' 'he/she/it calls'
+        \item \gll vit kalla tit kalla teir/tær/tey kalla\\
+        we call.\First\Pl.\Prs{} you.\Pl{} call.\Second\Pl.\Prs{} they.\M/\F/\N{} call.\Third\Pl.\Prs\\
+        \trans 'we call' 'you call' 'they call'
+        \item \gll eg kallaði tú kallaði hann/hon/tað kallaði\\
+        I call.\First\Sg.\Pst{} you call.\Second\Sg.\Pst{} he/she/it call.\Third\Sg.\Pst\\
+        \trans 'I called' 'you called' 'he/she/it called'
+    \end{xlist}
+\end{exe}
+
+Faroese has two distinct imperative forms, plural and singular, as illustrated here:
+\begin{exe}
+    \ex
+    \gll Gev/gevið hesum manninum gætur!\\
+    give.\Sg/\Pl{} this man-\Det.\Third\Sg\Dat{} attention\\
+    \trans 'Give attention to this man!'
+\end{exe}
+
+The singular \emph{gev} would be used if addressing one person, and the plural \emph{gevið} if more than one person
+is being addressed. There was no distinctive plural imperative in Old Norse, where the \Second\Pl{} indicative had this role,
+but in Faroese there is a distinction between the default finite forms and the imperative forms. We illustrate this below,
+where the non-imperative forms are referred to as \emph{indicative}, although it is uncertain that one can speak of indicative
+in Faroese, because there is no productive contrasting subjunctive in Faroese~\citep[67-68]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Tú fert til hús.\\
+        you.\Second\Sg{} go.\Second\Sg.\Prs.\Ind{} to house\\
+        \trans 'You go home'
+        \item \gll Far til hús!\\
+        go.\Second\Sg.\Imp{} to house\\
+        \trans 'Go home!'
+        \item \gll Tit fara til hús.\\
+        you.\Second\Pl{} go.\Second\Pl.\Prs.\Ind{} to house\\
+        \trans 'You go home'
+        \item \gll Farið til hús!\\
+        go.\Second\Pl.\Imp{} to house\\
+        \trans 'Go home!'
+    \end{xlist}
+\end{exe}
+
+We mentioned above that the subjunctive is not productive in Faroese anymore, and it should be added that only
+a few relic forms exist in main clauses in relatively fixed expressions and in religious language. And where they
+exist they almost exclusively express \emph{optative modality}, as illustrated below~\citep[68]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Jesus fylgir tær\\
+        Jesus follow.\Third\Sg.\Ind{} you\\
+        \trans 'Jesus is with you'
+        \item \gll Jesus fylgi tær\\
+        Jesus follow.\Third\Sg.\Subj{} you\\
+        \trans 'Jesus be with you' 
+        \item \gll Gud signar Føroyar\\
+        God bless.\Third\Pl.\Ind{} Faroes\\
+        \trans 'God blesses the Faroes'
+        \item \gll Gud signi Føroyar\\
+        God bless.\Third\Pl.\Subj{} Faroes\\
+        \trans 'God bless the Faroes'
+    \end{xlist}
+\end{exe}
+
+Examples of other, relatively fixed optative forms, which aren't religious expressions, are:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hann leingi livi!\\
+        He long live.\Third\Sg.\Subj{}\\
+        \trans 'Long live he!'
+        \item \gll Gævi at tað skjótt varð heystfrí!\\
+        Give.\Third\Sg.\Pst.\Subj{} that it soon become.\Sg.\Pst{} {autumn break}\\
+        \trans 'I wish we had autumn break soon!'
+        \item \gll Hevði tað nú bara gingist henni væl.\\
+        Have.\Third\Sg.\Pst.\Subj{} it now just go.\Sg.\Pst{} her well\\
+        \trans 'I wish things would go well for her'
+    \end{xlist}
+\end{exe}
+
+Of these the first one uses the present subjunctive while the two others use the past subjunctive (or what was the
+past subjunctive in older Faroese).
+
+Typically the passive is formed with the auxiliary verbs \emph{verða} 'be, become' and \emph{blíva} 'be, become'. 
+The participle agree in case, gender, and number with a nominative subject, and the agent is more frequently left
+out than in English. If the agent is included, it is with the auxiliary \emph{av} 'by', which takes a dative form.
+We illustrate this with some examples~\citep[69]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hann kysti hana\\
+        he.\Third\Sg.\Nom{} kiss.\Sg.\Pst{} her.\Third\Sg\Acc\\
+        \trans 'He kissed her'
+        \item \gll Hon varð/bleiv kyst (av honum)\\
+        she.\Third\Sg.\Nom{} be.\Sg.\Pst.\Aux{} kiss.\Nom.\Sg.\F.\Pst.\Ptcp{} (by him.\Dat)\\
+        \trans 'She was kissed by him'
+    \end{xlist}
+    \ex
+    \begin{xlist}
+        \item \gll Hon kysti teir\\
+        she.\Third\Sg\Nom{} kiss.\Sg.\Pst.\Ind{} them.\Acc.\Pl.\M{}\\
+        \trans 'She kissed them'
+        \item \gll Teir vórðu/blivu kystir (av henni)\\
+        they.\Third\Pl.\Nom.\M{} be.\Pl.\Pst.\Aux{} kiss.\Nom.\Pl.\M{} (by her.\Dat)\\
+        \trans 'They were kissed by her'
+    \end{xlist}
+    \ex
+    \begin{xlist}
+        \item \gll Teir smurdu hann av\\
+        they smear he.\Third\Sg.\Acc{} off\\
+        \trans 'They beat him up'
+        \item \gll Hann varð/bleiv avsmurdur\\
+        he.\Third\Sg.\Nom{} be offsmear.\Nom.\Sg.\M.\Pst.\Ptcp\\
+        \trans 'He was beaten up'
+    \end{xlist}
+\end{exe}
+
+In Faroese it is frequently possible to form so-called \emph{-st}-forms, or \emph{middle} forms, by adding the suffix
+\emph{-st} to various inflectional forms of the verb. The meaning of the middle forms varies widely in Faroese, but
+the usages most frequently mentioned in discussions of the middle forms are reflexive, reciprocal, or passive.
+We give some examples below:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Eg settist niður\\
+        I sit down\\
+        \trans 'I sat down' (reflexive meaning)
+        \item \gll Teir berjast altíð\\
+        they fight always\\
+        \trans 'They always fight' (reciprocal meaning)
+        \item \gll Oyggin kallast Nólsoy\\
+        island-\Det{} call Nólsoy\\
+        \trans 'The island is called Nólsoy' (passive meaning)
+    \end{xlist}
+\end{exe}
+
+Perfect tense is either formed with the auxiliary \emph{hava} 'have' and the supine (\Sg\N{} of \Pst\Ptcp{}) of the main verb,
+or it is formed with the auxiliary \emph{vera} 'be' and the inflected and agreeing past participle. \emph{Hava} is used
+with all transitive verbs and most intransitive verbs~\citep[72]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hon hevur lisið bókina.\\
+        she have.\Third\Sg.\Pst{} read.\textsc{sup} book-\Det.\Acc\\
+        \trans 'She has read the book'
+        \item \gll Teir hava sovið leingi.\\
+        they have.\Third\Pl.\Pst{} sleep.\textsc{sup} long\\
+        \trans 'They have slept for long'
+        \item \gll Hann hevur verið ríkur.\\
+        he have\Third\Sg.\Pst{} be.\textsc{sup} rich\\
+        \trans 'He has been rich'
+        \item \gll Hann er vorðin ríkur.\\
+        he.\Nom.\Sg.\M{} is become.\Nom.\Sg.\M{} rich\\
+        \trans 'He has become rich'
+    \end{xlist}
+\end{exe}
+
+Past perfect is formed with past tense of the relevant auxiliary (\emph{vera/hava}as mentioned above), and the perfect
+passive is formed with the auxiliary \emph{vera} 'be', not \emph{hava} 'have'. We illustrate this with a couple of examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hann hevði verið ríkur.\\
+        he have.\Pst{} be.\textsc{sup} rich.\Nom.\M{}\\
+        \trans 'He had been rich'
+        \item \gll Hann var vorðin ríkur.\\
+        he be.\Third\Sg.\Pst{} become.\Pst.\Ptcp{} rich.\Nom.\M{}\\
+        \trans 'He had become rich'
+    \end{xlist}
+    \ex
+    \gll Hann er/*hevur ofta vorðin/blivin avsmurdur.\\
+    he be.\Third\Sg.\Prs{}/*have often become.\Pst.\Ptcp{} off-smear.\Nom.\M{}\\
+    \trans 'He has often been beaten up'
+\end{exe}
+
+The indicative-subjunctive distinction is not productive in Faroese and past subjunctive forms generally do not exist.
+Past subjunctive was commonly used in Old Norse (and still is in Modern Icelandic) to indicate a counterfactual or hypthetical
+situation. The regular past tense can have this function is Faroese, but the meaning of such forms are typically
+ambiguous. We illustrate this with a few examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Eg gjørdi tað fegin.\\
+        I do.\Pst{} it gladly\\
+        \trans 'I did it gladly.' or 'I would gladly do it.'
+        \item \gll Hann hevði dripið hundin.\\
+        he have.\Pst{} kill.\Pst.\Ptcp{} dog-\Det.\Acc.\M{}\\
+        \trans 'He had killed the dog.' or 'He would have killed the dog.'
+        \item \gll Hann tók bókina.\\
+        he take.\Pst{} book-\Det.\Nom.\F{}\\
+        \trans 'He took the book.' or 'He would gladly take the book if...'
+        \item \gll Eg hevði fegin gjørt tað, um eg fekk pengar fyri tað.\\
+        I have.\Pst{} gladly do.\Pst.\Ptcp{} it if I get.\Pst{} money for it\\
+        \trans 'I would gladly have done it if I was paid for it.'
+        \item \gll Hann drap hundin, um hann fekk hendur á honum.\\
+        he kill.\Pst{} dog-\Det{} if he get.\Pst{} hand.\Nom.\Pl. on it\\
+        \trans 'He would kill the dog if he got his hands on it.'
+        \item \gll Hann hevði tikið bókina frá mær, um hann hevði sæð meg lisið í henni.\\
+        he have.\Pst{} take.\Pst.\Ptcp{} book-\Det{}.\Nom{} from me if he have.\Pst{} see.\Pst.\Ptcp{} me read.\Pst.\Ptcp{} in it\\
+        \trans 'He would have taken the book from me if he had seen me reading it.'
+    \end{xlist}
+\end{exe}
+
+\subsection{Syntax}
+
+The default word order in Faroese is subject-verb-object (SVO) or subject-auxiliary-main verb-object (SAVO), both in main clauses
+and embedded ones. We look at some examples~\citep[236]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Jógvan las bókina.\\
+        Jógvan read.\Pst{} book-\Det.\Acc.\Sg.\F{}\\
+        \trans 'Jógvan read the book.'
+        \item \gll Jógvan hevur lisið bókina.\\
+        Jógvan have.\Pst{} read.\Pst.\Ptcp{} book-\Det.\Acc.\Sg.\F{}\\
+        \trans 'Jógvan has read the book.'
+        \item \gll Eg haldi, at Jógvan hevur lisið bókina.\\
+        I think.\Prs{} that Jógvan have.\Pst{} read.\Pst.\Ptcp{} book-\Det\\
+        \trans 'I think that Jógvan has read the book.'
+    \end{xlist}
+\end{exe}
+
+As a rule, the indirect object precedes the direct object and typically appears in the dative, although
+indirect objects in the accusative form also appear. Lets look at some examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Turið gav Hjalmari nógvar bøkur.\\
+        Turið.\Nom{} give.\Pst{} Hjalmar.\Dat{} many book.\Nom.\Pl\\
+        \trans 'Turið gave Hjalmar many books.'
+        \item \gll Eg spurdi, um Zakaris seldi Eivindi tann gamla bilin.\\
+        I ask if Zakaris.\Nom{} sell.\Pst{} Eivind.\Dat{} the old car-\Det.\Acc\\
+        \trans 'I asked if Zakaris sold the old car to Eivind.'
+        \item \gll Hon lærdi meg niðurlagið.\\
+        she teach.\Pst{} me.\Acc refrain-\Det.\Acc\\
+        \trans 'She taught me the refrain.'
+    \end{xlist}
+\end{exe}
+
+Should we move an object or a prepositional phrase, or some other non-subject, to the front of a sentence, as is done
+in Topicalisation, the
+finite verb shows up in second place followed by the subject, i.e. Faroese is a "verb-second" (V2) language like the
+other Germanic languages except English. We take a look at some examples~\citep[238-239]{faroese}:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll \emph{Hesa bókina} hevur Jógvan lisið.\\
+        {this book}-\Det.\Acc{} have.\Pst{} Jógvan.\Nom{} read.\Pst.\Ptcp{}\\
+        \trans 'This book has Jógvan read.'
+        \item \gll \emph{Tann gamla bilin} seldi Zakaris Eivindi.\\
+        {the old car}-\Det.\Acc{} sell.\Third.\Sg.\Pst{} Zakaris.\Nom{} Eivind.\Dat.\\
+        \trans 'The old car Zakaris sold to Eivind.'
+        \item \gll \emph{Jóannes} haldi eg eigur hesa bókina.\\
+        Jóannes.\Nom{} think I own.\Third\Sg.\Prs{} this book-\Det.\Acc\\
+        \trans 'Jóannes, I think, owns this book.'
+    \end{xlist}
+\end{exe}
+
+As is typical for modern Germanic languages, adjectives precede the noun they modify:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll ein \emph{vøkur} genta, ein \emph{bláur} bilur\\
+        a beautiful.\Nom.\F{} girl.\Nom.\F{}, a blue\Nom.\M{} car.\Nom.\M{}\\
+        \trans 'a beautiful girl', 'a blue car'
+        \item \gll Hann kom súkklandi á einari \emph{gamlari} súkklu.\\
+        he come.\Pst{} ride.\Prs.\Ptcp{} on an old.\Dat.\F{} bicycle.\Dat.\F{}\\
+        \trans 'He came riding on an old bicycle.'
+    \end{xlist}
+\end{exe}
+
+When it comes to adverbs we can broadly distinguish between three basic adverbial positions~\citep[241]{faroese}:
+\begin{enumerate}
+    \item the medial position, following the finite verb
+    \item the verb phrase position, following a possible object and other elements of the verb phrase
+    \item the modifying position, when the adverb is modifying and adjective and other adverbs
+\end{enumerate}
+
+We illustrate this with a few examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Tey hava \emph{ikki/ivaleyst/jú/aldri} lisið bókina.\\
+        they have not/undoubtedly/actually/never.\Adv{} read book-\Det.\Acc\\
+        \trans 'They have not/undoubtedly/actually/never read the book.'
+        \item \gll Tey hava lisið bókina \emph{tá/har/væl og virðiliga}.\\
+        they have read book-\Det.\Acc{} {then/there/well and thoroughly}.\Adv{}\\
+        \trans 'They have read the book then/there/well and thoroughly.'
+        \item \gll Tey hava lisið hesa ógvuliga longu bókina sera væl.\\
+        they have read this extremely.\Adv{} long book-\Det.\Acc{} very.\Adv{} well\\
+        \trans 'They have read this extremely long book very well.'
+    \end{xlist}
+\end{exe}
+
+Let's end by looking at the case of subject, object, and indirect object. The regular \emph{subject} case in Faroese
+is \emph{nominative}, as we already have seen in previous examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll \emph{Hann} skrivar.\\
+        he.\Nom.\Sg{} write.\Third\Sg\\
+        \trans 'He writes.'
+        \item \gll \emph{Hon} arbeiðir.\\
+        she.\Nom.\Sg{} work.\Third\Sg\\
+        \trans 'She works.'
+        \item \gll \emph{Børnini} spæla.\\
+        child-\Det.\Nom.\Pl play.\Third\Pl\\
+        \trans 'The children play'
+        \item \gll \emph{Vit} settu niður epli {í gjár}.\\
+        we.\Nom.\Pl{} put down potato.\Pl{} yesterday\\
+        \trans 'We planted potatoes yesterday.'
+    \end{xlist}
+\end{exe}
+
+Before we continue, it should be mentioned that some verbs take non-nominative subjects in modern Faroese,
+but we won't look further into that here.
+
+Looking at \emph{direct object} case we can say that the \emph{accusative} is the default case,
+as we have already seen in previous examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hon keypti bókina.\\
+        she buy.\Pst{} book-\Det.\Acc\\
+        \trans 'She bought the book.'
+        \item \gll Hann seldi telduna.\\
+        he sell.\Pst{} computer-\Det.\Acc\\
+        \trans 'He sold the computer.'
+    \end{xlist}
+\end{exe}
+
+It should be mentioned, however, that a number of verbs take a direct object in dative case, which we also touched upon earlier,
+but we will restrict ourselves here to saying that among the verbs that take a direct object in the dative are
+verbs of helping, ordering, praising, thanking, welcoming, etc., leading one to associate the dative objects with
+thematic roles such as recipients and experiencers. The semantic verb classes and thematic roles we have mentioned are roughly
+the same as the ones taking a dative object in Icelandic, although dative objects are getting more rare in modern Faroese
+while still being prevalent in Icelandic~\citep[257-258]{faroese}.
+
+At last we have the \emph{indirect object}, which takes the \emph{dative} as its default case, as we have seen in previous examples.
+Among the verbs taking an indirect object are verbs meaning 'sell', 'lend', 'give', 'send', etc. Let's look at three examples:
+\begin{exe}
+    \ex
+    \begin{xlist}
+        \item \gll Hann beyð henni starv.\\
+        he offer.\Pst{} she.\Dat{} job.\Acc\\
+        \trans 'He offered her a job.'
+        \item \gll Tey fingu sær bil.\\
+        they get.\Pst{} themselves.\Dat{} car.\Acc\\
+        \trans 'They got themselves a car.'
+        \item \gll Fyrigev honum syndir hansara.\\
+        forgive.\Imp{} him.\Dat{} sin.\Pl.\Acc{} he.\Gen\\
+        \trans 'Forgive him his sins.'
+    \end{xlist}
+\end{exe}
+
+We notice from the examples that these verbs, \emph{bjóða} 'offer', \emph{fáa} 'get', \emph{fyrigeva} 'forgive', are
+examples of verbs that take two objects, one dative (indirect) object and one accusative (direct) object. We call these verbs \emph{ditransitive}.
+This dative--accusative pattern is also the most common case marking pattern of ditransitive verbs in Icelandic, but there
+we also have many other patterns, such as dative--dative, dative--genitive, accusative--dative, accusative--genitive, and
+accusative--accusative, most of which are not found in Faroese~\citep[262-263]{faroese}.
+
+
+\section{Conclusion}
+
+In the preceding sections we have gone through the morphology and syntax of Icelandic and Faroese, respectively.
+We have seen that it is possible to compare the complexity of two languages by looking at the structure of
+equivalent phenomena.
+
+We have seen that inflection of nouns is similar in both languages; both have four cases (\Nom, \Acc, \Dat, \Gen{}, although genitive
+is largely not productive in Faroese) and three grammatical genders (\M{},\F{},\N{}). On the other hand,
+verb inflections are more complex in Icelandic than Faroese. Firstly, the distinction between subjunctive and
+indicative has been lost in Faroese (except for a few fixed expressions), secondly the distinction
+between first, second, and third person in the plural has also been lost in Faroese, as has the
+person distinction in the past tense singular of weak verbs. Despite this, an innovation in faroese
+is the occurrence of the plural imperative, which did not exist on Old Norse, and doesn't in Modern Icelandic either,
+where the \Second\Pl{} indicative has this role.
+
+\subsection{Future work}
+
+In the future this comparison could be built out to emphasise syntax more and put the analysis
+into the context of Role and Reference Grammar (RRG), which would nicely lay the groundwork for building of machine parsers
+for Icelandic and Faroese, respectively. We showed a sample of RRG trees for Icelandic, but this
+should be done for Faroese as well.
+\\\\
+
+
+
+    
+\bibliographystyle{lin-v2/lin}    
+\bibliography{references}
+
+
+\end{document}
